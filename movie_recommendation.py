@@ -17,7 +17,7 @@ year           = ctrl.Antecedent(np.arange(1900, 2026, 1), "year")
 #Output
 recommendation = ctrl.Consequent(np.arange(0, 11, 1), "recommendation")
 
-#Membership Functions
+#Input
 
 #Audience Score
 audience_score["low"]    = fuzz.trapmf(audience_score.universe, [0, 0, 50, 60])
